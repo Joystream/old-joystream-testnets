@@ -1,0 +1,187 @@
+{
+  "genesis_time": "2018-11-30T08:55:53.66724491Z",
+  "chain_id": "joy-testnet-0",
+  "consensus_params": {
+    "block_size": {
+      "max_bytes": "22020096",
+      "max_gas": "-1"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "accounts": [
+      {
+        "address": "joystream1kf88vq547cyfykqcwufe5t4gae3zx5n9kacdse",
+        "coins": [
+          {
+            "denom": "joy",
+            "amount": "150"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0"
+      },
+      {
+        "address": "joystream10jxjn52lmfprpy640eu755xy55ymalmj67y908",
+        "coins": [
+          {
+            "denom": "joy",
+            "amount": "100000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0"
+      }
+    ],
+    "auth": {
+      "collected_fees": null
+    },
+    "stake": {
+      "pool": {
+        "loose_tokens": "100150.0000000000",
+        "bonded_tokens": "0.0000000000"
+      },
+      "params": {
+        "unbonding_time": "259200000000000",
+        "max_validators": 200,
+        "bond_denom": "joy"
+      },
+      "intra_tx_counter": 0,
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "bonds": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "mint": {
+      "minter": {
+        "last_update": "1970-01-01T00:00:00Z",
+        "inflation": "0.1300000000",
+        "annual_provisions": "0.0000000000"
+      },
+      "params": {
+        "mint_denom": "joy",
+        "inflation_rate_change": "0.1300000000",
+        "inflation_max": "0.2000000000",
+        "inflation_min": "0.0700000000",
+        "goal_bonded": "0.6700000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "distr": {
+      "fee_pool": {
+        "val_accum": {
+          "update_height": "0",
+          "accum": "0.0000000000"
+        },
+        "val_pool": null,
+        "community_pool": null
+      },
+      "community_tax": "0.0200000000",
+      "base_proposer_reward": "0.0100000000",
+      "bonus_proposer_reward": "0.0400000000",
+      "validator_dist_infos": null,
+      "delegator_dist_infos": null,
+      "delegator_withdraw_infos": null,
+      "previous_proposer": "joystreamvalcons1yu75h6"
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": null,
+      "votes": null,
+      "proposals": null,
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "joy",
+            "amount": "10"
+          }
+        ],
+        "max_deposit_period": "172800000000000"
+      },
+      "voting_params": {
+        "voting_period": "172800000000000"
+      },
+      "tally_params": {
+        "threshold": "0.5000000000",
+        "veto": "0.3340000000",
+        "governance_penalty": "0.0100000000"
+      }
+    },
+    "slashing": {
+      "params": {
+        "max-evidence-age": "120000000000",
+        "signed-blocks-window": "100",
+        "min-signed-per-window": "0.5000000000",
+        "double-sign-unbond-duration": "300000000000",
+        "downtime-unbond-duration": "600000000000",
+        "slash-fraction-double-sign": "0.0500000000",
+        "slash-fraction-downtime": "0.0100000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {},
+      "slashing_periods": null
+    },
+    "gentxs": [
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "Description": {
+                  "moniker": "node0",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "Commission": {
+                  "rate": "0.0000000000",
+                  "max_rate": "0.0000000000",
+                  "max_change_rate": "0.0000000000"
+                },
+                "delegator_address": "joystream1kf88vq547cyfykqcwufe5t4gae3zx5n9kacdse",
+                "validator_address": "joystreamvaloper1kf88vq547cyfykqcwufe5t4gae3zx5n9gc62x7",
+                "pubkey": {
+                  "type": "tendermint/PubKeyEd25519",
+                  "value": "KO5vbywdN85SzIchAj/KDEKAAZVSeJ4lVjCsqW7GU+U="
+                },
+                "delegation": {
+                  "denom": "joy",
+                  "amount": "100"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "0"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "AhB2f7/peW2/BoFpgyLpT3dxbSmiSqfCxBCPoCPQNzEb"
+              },
+              "signature": "Cc3C9F2LEBuvJ21TIyHlbCu740YohMSs0lhK7kTGWxo+Zj7Q+knnNw2JyFV65JsPxcKRKhj+Vx1YmfI8FK7i5A==",
+              "account_number": "0",
+              "sequence": "0"
+            }
+          ],
+          "memo": "e64915edd533521fdd5c8e7a2a374a86267694d7@192.168.0.1:26656"
+        }
+      }
+    ]
+  }
+}
