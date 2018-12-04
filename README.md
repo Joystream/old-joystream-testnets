@@ -2,5 +2,5 @@
 
 This repo is a collection of the testnet configuration files.
 
-See [Guide to joining testnet](https://github.com/mnaamani/joystream-manual/blob/master/join-testnet.md)
+See [Guide to joining testnet](https://github.com/joystream/joystream-manual/blob/master/join-testnet.md)
 
