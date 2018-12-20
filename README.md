@@ -3,7 +3,7 @@
 This repo is a collection of the testnet configuration files.
 
 
-### Latest testnet joy-testnet-1000
+### Latest testnet joy-testnet-2000
 
 You can use these seeds in your node's config.toml file:
 
